@@ -1,0 +1,54 @@
+
+
+#container{
+    width: 300px;
+    margin: 150px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: none;
+    font-size: large;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus{
+    background-color: white;
+    border: 2px solid lightseagreen;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+li{
+    background-color: white;
+    height: 35px;
+    line-height: 35px;
+}
+
+input{
+    font-size: large;
+    background-color: lightcyan;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+}
+
+li:nth-of-type(2n){
+    background-color: lightcyan;
+}
